@@ -15,7 +15,7 @@ namespace homeword_9._21
 
         private void button_click(object sender, EventArgs e)
         {
-            MessageBox.Show("ok");
+            MessageBox.Show("git test");
             if (box_salestax.Text.Contains("%"))
             {
                box_salestax.Text = box_salestax.Text.Replace("%", "");
@@ -76,3 +76,13 @@ namespace homeword_9._21
         }
     }
 }
+
+/*
+ * echo "# C-Sharp-cost-calculator" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:jacksoes/C-Sharp-cost-calculator.git
+git push -u origin main
+*/
