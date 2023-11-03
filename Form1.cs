@@ -15,6 +15,7 @@ namespace homeword_9._21
 
         private void button_click(object sender, EventArgs e)
         {
+            MessageBox.Show("ok");
             if (box_salestax.Text.Contains("%"))
             {
                box_salestax.Text = box_salestax.Text.Replace("%", "");
